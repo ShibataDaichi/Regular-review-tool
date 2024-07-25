@@ -1,0 +1,163 @@
+/* 既存のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="file"],
+input[type="date"],
+input[type="text"],
+input[type="password"],
+textarea {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.upload-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comment {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.uploads-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.delete-form, .edit-form {
+    display: inline-block;
+    margin: 5px;
+}
+
+#calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.calendar-day:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 600px) {
+    input[type="file"],
+    input[type="date"],
+    input[type="text"],
+    input[type="password"],
+    textarea {
+        max-width: 100%;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
+
+/* 追加したボタンスタイル */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
